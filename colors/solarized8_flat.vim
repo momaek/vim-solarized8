@@ -25,7 +25,7 @@ hi! link Define PreProc
 hi! link Delimiter Special
 hi! link Exception Statement
 hi! link Float Constant
-hi! link Function Identifier
+hi! link Function Function
 hi! link Include PreProc
 hi! link Keyword Statement
 hi! link Label Statement
@@ -172,7 +172,9 @@ if &background ==# 'dark'
   hi Constant guifg=#2aa198 guibg=NONE gui=NONE cterm=NONE
   hi CursorIM guifg=NONE guibg=fg gui=NONE cterm=NONE
   hi Error guifg=#dc322f guibg=#fdf6e3 gui=bold,reverse cterm=bold,reverse
-  hi Identifier guifg=#268bd2 guibg=NONE gui=NONE cterm=NONE
+  "hi Identifier guifg=#268bd2 guibg=NONE gui=NONE cterm=NONE
+  hi Function guifg=#268bd2 guibg=NONE gui=NONE cterm=NONE
+  hi Identifier guifg=#829e86 guibg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi PreProc guifg=#cb4b16 guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#cb4b16 guibg=NONE gui=NONE cterm=NONE
